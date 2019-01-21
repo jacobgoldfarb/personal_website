@@ -1,4 +1,7 @@
-# website_2
+# My Personal Website
+
+## Intro
+This is my personal website, created to showcase my resumé and some projects I've been working on.
 
 ## Project setup
 ```

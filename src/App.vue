@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    <Home msg="Welcome to Your Vue.js App"/>
-        <img src="./assets/cartoon_self.png" alt="" style="">
+    <navbar/>
+    <router-view/>
 
   </div>
 </template>
 
 <script>
-import Home from './components/Home.vue'
+import Navbar from './components/Navbar.vue'
 
 export default {
   name: 'app',
   components: {
-    Home
+    Navbar
   }
 }
 </script>
@@ -34,6 +34,15 @@ font-family: 'Roboto', sans-serif;
 }
 img {
   width: 20%;
-  margin-top:4rem;
+  /* margin-top:4rem; */
+}
+.heading{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  text-align: left;
+
 }
 </style>

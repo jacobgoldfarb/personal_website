@@ -61,7 +61,7 @@ export default {
 }
 .par {
   padding-top: 2rem;
-  padding-bottom: 4rem;
+  padding-bottom: 6em;
 }
 /* .project{
     margin-bottom: 10

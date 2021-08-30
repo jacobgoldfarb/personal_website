@@ -6,11 +6,11 @@
           <b-col cols="9" class="about-col">
             <div class="hello">
               My name is
-              <span class="red enlargen">Jacob Goldfarb</span>. I have a <span class="loud">loud</span> passion for technology and a strong entrepreneurial drive. I'm currently seeking jobs in
+              <span class="red enlargen">Jacob Goldfarb</span>. I have a deep passion for technology and a strong entrepreneurial drive. I'm currently seeking jobs in
               <span
                 class="red"
-              >product management, software engineering,</span> and
-              <span class="red">consulting.</span>
+              >software engineering,</span> or
+              <span class="red">product management.</span>
             </div>
           </b-col>
           <b-col cols="3">
@@ -29,15 +29,14 @@
             <div class="about-title enlargen">Hello,</div>
             <div class="about-desc">
               <p>
-               I’m a 22 year old North Bayite engineering student studying Systems Design Engineering at University of Waterloo. I'm currently on my 2B study term. For my last coop, I worked at Zynga in Toronto as an Analytics Software Engineer.
-                Check out my resumé above to see all my relevant experience, or my projects to see some cool stuff I've been working on.
+               I’m a Canadian engineering student studying Systems Design Engineering at University of Waterloo. I'm currently in my final year of school and searching for new grad opportunities. Check out my resumé above to see all my relevant experience, or my projects to see some cool stuff I've been working on.
               </p>
               <p>
-                I love programming, design, data and all things problem solving. When I'm not studying I like to play basketball, practice Muay Thai, bouldering, swimming, running or skiing.
+                I love programming, design, data and all things problem solving. When I'm not studying I like to play chess, practice Muay Thai, boulder, swim, run or ski.
               </p>
               <p>
-                I'm currently seeking internship oppurtunuties for Winter 2020 in Consulting, Software Engineering, or Product Management. That being said, if you know of any
-                oppurtunuties I might be interested in feel free to reach out!
+                I'm currently seeking internship oppurtunuties for Winter 2020 in Software Engineering or Product Management. That being said, if you know of any
+                opportunities I might be interested in feel free to reach out!
               </p>
             </div>
           </b-col>

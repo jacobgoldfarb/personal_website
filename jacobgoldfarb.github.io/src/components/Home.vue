@@ -1,5 +1,4 @@
 <template>
-
   <div class="home">
       <about/>
       <!-- <resume/> -->

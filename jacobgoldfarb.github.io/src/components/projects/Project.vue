@@ -8,6 +8,7 @@
       <p>{{par1}}</p> 
       <img class="img-1" align="left" :src="img2"> 
       <p>{{par2}}</p>
+      <p>{{par3}}</p>
       <a :href="github" v-if="github !=''" class="read-more" target="_blank">Click here to see more</a>
     </div>
   </div>

@@ -3,7 +3,7 @@
     <div class="heading projects-header">Projects</div>
     <hr class="about-break" />
     <div class="sidebar">
-      <b-container-fluid>
+      <div>
         <b-row
           class="sidebar-row"
           :class="{
@@ -99,7 +99,7 @@
           "
           >Fly</b-row
         >
-      </b-container-fluid>
+      </div>
     </div>
 
     <div class="project-desc">
@@ -108,8 +108,8 @@
           v-if="classpatio"
           title="Class Patio"
           sub_title="Class Patio is a listing of various art lessons for children in Toronto, virtual and in person."
-          img1="https://lh3.googleusercontent.com/fZXBf2Teb3kW55RcTulvdmsa_pHqHxe5fr8TEMZNtQMjrxcbx4eoNdGwembo6xNGIlp7IPQfUBCpeof5cxQ6r1WRRtZXEJQxYCcXXooCRK0bxSEbzRkpl8JzYQE5qq70EBexMseB3Q=w2400"
-          img2="https://lh3.googleusercontent.com/TDhqw1Cd1Njoo40wG4-lvEwZCDW3wI-RylUjoW8UgAZlSFbG7CbyuPdBPAMZhi_RQi2wRtcaRZAZHHXYKDTAmQ2q_PiwqQXa23XsTVqD7oYigaKsNo7QFqspIHiCVfqLcc56M3IHwg=w2400"
+          img1="https://lh3.googleusercontent.com/IQA78lgHR_4D--FYZsWh56ZkqfYaCgZ_hwmmKo5q6B8wuJ5cYdqtAI-nf_jYZms4HGgpGryXkquMdmaSUgkCVw4xQzbVwvFoczNw2GmgX5aC6Njj9qfYn0k3_pWC3QgJfH9lC3ajJs3t3NaMynQ9DWm7CZf8tXnlnJGgpmGTRtfgqGefiTFai4WNJSC3kqZCbqQ6_0xgXLTjcmCn7kUrB7cJIG6LPas2JwIWboA_ooBFnKG3P5kr6qqxzQhaCoesUygd7IYVC5isv6XHP4YxyN3mdjtxR7b08NdE13c5q9Z3SgnBDszpRVdCXIVGS0XwqPyAdp0yH1qEBYMIbkp5iH0ee-95GIusGsKJZLgIII1x1AXRVKkO4oziu2e1wU4frrCxxfXFxcr-f1YnAf6OMqdGoAYNp7ErJOhpKSu4rjKtnGd0gtEHan34VJ9CgnJmGjh2N2tu2aHRJVywYcY_3MoI6zr7AQ1RpQqCgb1-uzqfhsVFIWejHENtwvu2DerlB7CGX0cVH4XrPWtwcDuHFpT34tbEtgyUQIFTyd-tfuktn0ZQwb0UX5fpV5fxWAdk5E5PjE7dyq8uvgYyjPeqJLWXQWfq__407sWNxx2jDzAsD4REVFbn_4BLatXWqAB5sCm8lHZ9W7J51k4m_sGZqvk3detMai4B9crxxztdB1fD3XIr0rtHJhak4Dn9sDoIcxWtkyAZi203hvXDhlJenbz2=w1800-h760-no?authuser=0"
+          img2="https://lh3.googleusercontent.com/_0JFjcqiOvdvgxG9RtAymkUOuBP6Fatu-UlFuYZA0bPom7WtX5J_J92r8JmTGePpbZKjBX4pFglswcCNYM8n0jRh4f5Qd3szRmbuyFh7U2OKDyCKyvx-BlsYO9xMXB2eBL2JFRf5aK1jjt5k4tW4JUI-3Ve1C70mum8GRpKyQ8kwydk2_VsRWj8qxewflHaEWW3Rqmtr4Qlymslr-fAfcaL3cEpf_eG1zuvKrtKWpGWsGbgBntWp8l9xe-oCpusrs8Cq1cEREg2bAZdBVsspyp93AHbgtPSZvaiuOFIlHcWH_TaaORBDfM_KlGLq7dUkoAzKXOhgY1aRmHidCPFuFA33bQpfmiyS3hPD4G8O_KkIbSDTdBwVNW4GiuZh3ixBQCMLB6yNdcfu_U6XDSjXvCWwKQusvepT-RHwkaAYEpgbb53EWeTxegU9Gj1dEjBF7A92z6PFp3lPTy1umUU3-EVq0QKv-jihgiJGRNiGMxs_9ywVGpacmkhx7d9TVF7_PNYNt0biA2LR4xhI8cd1-YD2a-tdtMqvtS8DGcQmVvg5d74Tj4V8L1tYUl_h-x3Dj1nitkdb_xtDgesEgbTS-1Wy5gDVjRySKwHbq-oyPfOeRBl2CYHLKO0KSG_HK1SmLM3HQthvsdoziXWOUVHpTuNhfVv0xAUosR22K1Xo5vZdx1VdG16QtiLmeM6SMSAD0-no8qgX-JbIuoCUnbJGNHQn=w753-h450-no?authuser=0"
           par1="During the COVID 19 pandemic there arose the need for online lessons for children since many parents don't know how to fill their children's free time when regular activities are no longer an option."
           par2='Class Patio offers "good screen time" for children, a growing selection of art classes for children of all ages in Toronto.'
           par3="The website was created with a vanilla JS front end and a RoR backend."
@@ -117,29 +117,26 @@
         />
       </transition>
       <transition name="fade">
-        <project
+        <Bia
           v-if="bia"
           title="Bia"
           sub_title="Bia is a workout tracking device for casual gym goers."
-          img1="https://lh3.googleusercontent.com/fZXBf2Teb3kW55RcTulvdmsa_pHqHxe5fr8TEMZNtQMjrxcbx4eoNdGwembo6xNGIlp7IPQfUBCpeof5cxQ6r1WRRtZXEJQxYCcXXooCRK0bxSEbzRkpl8JzYQE5qq70EBexMseB3Q=w2400"
-          img2="https://lh3.googleusercontent.com/TDhqw1Cd1Njoo40wG4-lvEwZCDW3wI-RylUjoW8UgAZlSFbG7CbyuPdBPAMZhi_RQi2wRtcaRZAZHHXYKDTAmQ2q_PiwqQXa23XsTVqD7oYigaKsNo7QFqspIHiCVfqLcc56M3IHwg=w2400"
+          img1="https://lh3.googleusercontent.com/M7Gj8Z_0KHD5WkTC9ZJRi_LNZOuO7nN-nTN0_aGQEsuTc6yYsqlEcAzNxZVSzGH9DQoLpp_s4A8PpUZNHuHsc3AJitHwUlxnSsBOBKvVY5iApRdKTCiU8vL13PhuAlRuN47-Kc4Ho1ywG0qmrVhnrNRaX6iGdXojoqE_LPU6_vcGC_28TBuvsXJx97kiEQmKfivGSUWPJRz_CK5Dek97352TblaOOdJ0YAPRLD7E18YRFnmEr7AiCkfmofA0ohzTbguF-CPGkNg7NTdSvV3d_obdou5GFFzl88ZWtT1TyHzAJNSFlwNTSlQX7V-5YibEtLJA-aEUrMYPBHH7v4qh24m6cU-BLCmHjfS4sZPvDJ4_uiwmPwpUv5Zdyt4Hjtbpo6UK9gwKiRsxKv5N2wDZKAWN5iSQ4mh-hD1X2cS3Qal3pSEoyz2GwpBfOEK1Ttgdy68B_KKgqMOdzbbxfsussshGQGDXkD5LOp-l5s93IP3kmSoHOA7v-BaVvbWGLaIZISzf-3J417Qyg_9fc03vjUTUeoVhLSKan51M1Of-SpOoHFqvckvIGDqz5zdTvvn5jp8zlZlKTjCtMoCzGOI-BF9_Fczi-qFxaoej5YtODpOhvZFjiSBBObOKFPMftD1k35Ajg222BwBo_z9plly04qqx38s6PRXmmZ391zYMrbu5zy-RIOetP5-5QW1Wuw1kOKuHseT5htKNwXKIMei48xse=w810-h1528-no?authuser=0"
+          img2="https://lh3.googleusercontent.com/e97yglmqzbYi6OGKNj_UYqNhvfwYzf11ZZIGKetl2hjL9lt2Mi-_ttNOv6p2HSIOpdenQerYSD9gOfOGLuKTrPkVE3MCyBZvhWeL5ftpY_OLsqm7TOt80NCvBszYS1Y1zfxuOyeNdFdGbdAAar74-3H9fr8KQVKhfra5SoOiUUQbEA-cgyRQLDjCD7vOxcXgGm6j65tlRT4ppn89iaKjKXlkCYKysQ16D2eiLJqVvTCKSbvbaTG1Hx-wuMV-L0DHzkrvbtmAlbroR4j7pMhKDLdQahRvPOVV4Jhfy62D0D58wtp6Gx4cyoisCGZWZO0NbH6YiXyZHQbwbQJ25yEwTnSTDZboh5-lYHEOunL8fVvsJkWzzd3gTmdsSQN90WBTuPYTWojtjMHjeHi1AHX1fB8gasxLsYd0PzgMb0tWMFS51JeA69rCMpNY9ksoJ5Npe0lRKqFOAYep06bLv1LzxqudW-Dy_v4G1XuzJMlQzONPG1Ozr4B1pEJcXDM-ADVEGmWTYVaNteU7G-hTmHnzVyoOwuZ6N04z5uMZNDALmX8XwQqJVNDShQYSFB5k4Gv9CuvkkmDzZHMt_aNO0DIXYbqJ4BDCDev6yCCkAWu5Yxt4NSTBJRDjxiGzz-BQl3me7y3dRFd4cdTYkKKVGuwBQS0y4J5H7d3-1msv2QP2_wM_9sw3U15itL1033pszWkB3bNxL7dhIjpVSbeYdtL-xfiu=w206-h367-no?authuser=0"
           par1="The device uses an inertial motion unit (IMU), a bluetooth low energy (BLE) module, and force sensitive resistors (FSRs)  to pair with your iPhone and give you feedback about your workout. The aim is for the tool to determine what kind of exerciese the user is doing, how much weight they're lifting, and the quality of their form."
           par2="Currently, the tool exists as an Arduino prototype. The rep detection and iPhone connectivity is functional, but other features are still in development."
           par3="No longer will weight lifting intimidate new gym goers, and no longer will intermediate gym goers be required to manually track their exercises. Bia will be the most valuable, accessible, and inexpensive personal trainer ever."
-          github="https://github.com/jacobgoldfarb/Toonies"
         />
       </transition>
       <transition name="fade">
-        <project
+        <Boonco
           v-if="boonco"
           title="Boonco"
-          sub_title="The mission of Toonies is to teach financial literacy to young adults and teenagers who want to create more value with their money."
-          img1="https://lh3.googleusercontent.com/fZXBf2Teb3kW55RcTulvdmsa_pHqHxe5fr8TEMZNtQMjrxcbx4eoNdGwembo6xNGIlp7IPQfUBCpeof5cxQ6r1WRRtZXEJQxYCcXXooCRK0bxSEbzRkpl8JzYQE5qq70EBexMseB3Q=w2400"
-          img2="https://lh3.googleusercontent.com/TDhqw1Cd1Njoo40wG4-lvEwZCDW3wI-RylUjoW8UgAZlSFbG7CbyuPdBPAMZhi_RQi2wRtcaRZAZHHXYKDTAmQ2q_PiwqQXa23XsTVqD7oYigaKsNo7QFqspIHiCVfqLcc56M3IHwg=w2400"
-          par1="Toonies is a platform anyone can use to learn about investing. It is divided into two core functionalities, the first is the ability to learn through click-based lesson modules. The second is the simulated stock portfolio with metrics that directly correspond to the lesson modules. The website was created using Vue.js and Firebase to host the backend."
-          par2="There exists a subset of teenagers and young adults who, through various means, have accumulated enough savings to invest in various securities and increase their savings. This subset, however, is too intimidated by the wealth of information present on the internet and the lack of organization. Currently, information is prevalently available through online encyclopedias, articles that assume existing knowledge on the reader, and online courses from websites including Coursea, Udemy, and Udacity."
-          par3="The most popular investing course on Udemy; “Investing In Stocks The Complete Course!” by Steve Ballinger has 35’000 students enrolled. investopedia.ca, an online encyclopedia about investing has had 41 million visits and is growing. It is not presumptuous, therefore, to assume a sizeable market in the financial education sector exists that can be captured through different mediums."
-          github="https://github.com/jacobgoldfarb/Toonies"
+          sub_title="Boonco is a marketplace for lenders."
+          img1="https://lh3.googleusercontent.com/Qj-IYMdU8kxbuTY7XFO6unkaaazYTi4nxmOIy6j44qEman7S4kjwBgYBOsGzeHx1YwP_IKEU7Z_joRN_kDKiRN4dDy6BmWjAuI-rWnzs40iZxWH6bYifA5wbAy5xYKou566fI2XVBcuXBL0Xd8KOE3_Mi-kZ2Vjw-1KhJs6RFClP3HiKrdN9iV-afkMsdeoAET2BThYqIwPodx66mIla1b71VqsfYYlYe-6xI56xYFRsBc8GaDSgdWdpKJJqduwSawSchjXQ9d0ZxbdVUOq5wb_oMUOT6kTH-qZmFr-43gC8UEHzN4WOa5dS8tj389ONOaPO7hesJ_WFRPuruQuxjhkEYXeU04Bd_uVJvIJfWDvNvTgf0NYSfaqiw2LDLQ17x7P07gaQRQ9ev0e1eHWNJLGezVVKVR5rLnkhupasgzCeApTXeFv6F0YxmJ35tS5D6cJL-EAirswtA8OotchRb83_1T0EXxKJdvOa_FHJ0K0AxW3s-Zgzp-oRGJqu3733G_Ws9rLBH8U8Aho4tGoVUWMo5WLR9BvVH8F64UGwP8outx69sYJidJkE4bCd-5e075Z-sx7DFzDWmcr8VqNNTHD3DDYEPcCGfCYJK0vXaL-OmdGnfn7JRl-hZkUrTf9kDfZBym029OrOog6HMMfh0y_kSmQ2MQgA0bF1fyj7NywHQT4_JgWs9p7OL11M1_8IDxM6Yb0fwhcfKMTqyJ-feXPZ=w946-h1528-no?authuser=0"
+          par1="The marketplace, which exists as an iOS app and RoR backend, enables anyone to browse or post listings in their area. Users interested in a listing can place bids. If the poster accepts a users bid, their personal information is revealed and they can then coordinate the lending/borrowing of the item featured in the listing."
+          par2="This solution enables users to consume cheaply and environmentally friendlier than outright purchasing items."
+          github="https://boonco.ca"
         />
       </transition>
       <transition name="fade">
@@ -226,6 +223,8 @@
 
 <script>
 import Project from "./projects/Project.vue";
+import Bia from "./projects/Bia.vue";
+import Boonco from "./projects/Boonco.vue";
 import Cortex from "./projects/Cortex.vue";
 import TDProjects from "./projects/TDProjects.vue";
 import enlightN from "./projects/enlightN.vue";
@@ -236,6 +235,8 @@ export default {
     Cortex,
     TDProjects,
     enlightN,
+    Bia,
+    Boonco,
   },
   methods: {
     clickSegmented() {
@@ -347,7 +348,6 @@ export default {
 }
 .project-desc {
   margin-left: 10%;
-  margin-top: 2rem;
 }
 .about-break {
   background-color: #d0021b;
@@ -361,6 +361,7 @@ export default {
 }
 .sidebar-row {
   padding-top: 0.4rem;
+  width: 10%;
   cursor: pointer;
 }
 .fade-enter-active,

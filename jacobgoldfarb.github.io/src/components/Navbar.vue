@@ -15,9 +15,6 @@
 
 
           <b-navbar-item right class="menu-item" @click="goProjects">Projects</b-navbar-item>
-                    <b-navbar-item right class="menu-item">
-            <a href="https://medium.com/@jacobgoldfarb" target="_blank">Blog</a>
-          </b-navbar-item>
           <b-nav-item-dropdown
             right
             text="Resumé"
@@ -25,11 +22,11 @@
             style="margin-top: -0.44rem; margin-right: 4rem; margin-left: 2rem; color:red"
           >
             <b-dropdown-item
-              href="https://drive.google.com/file/d/15Ik5CjST11ux6_Hr_veqZO2k8VSvaaoc/view?usp=sharing"
+              href="https://drive.google.com/file/d/13qEcX8VAoYGpBFI7KfmkxYCFY-PcWklA/view?usp=sharing"
               target="_blank"
             >Product</b-dropdown-item>
             <b-dropdown-item
-              href="https://drive.google.com/file/d/1kevQYlsp4EAmZt7mumrg11JX1L0hVHDG/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Mq_hMidRYAccTBdaKzN-wdKEwKss_VIg/view?usp=sharing"
               target="_blank"
             >Technical</b-dropdown-item>
           </b-nav-item-dropdown>

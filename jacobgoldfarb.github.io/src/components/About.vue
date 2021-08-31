@@ -35,7 +35,7 @@
                 I love programming, design, data and all things problem solving. When I'm not studying I like to play chess, practice Muay Thai, boulder, swim, run or ski.
               </p>
               <p>
-                I'm currently seeking internship oppurtunuties for Winter 2020 in Software Engineering or Product Management. That being said, if you know of any
+                I'm currently seeking new grad oppurtunuties for Summer or Fall 2022 in Software Engineering or Product Management. That being said, if you know of any
                 opportunities I might be interested in feel free to reach out!
               </p>
             </div>
